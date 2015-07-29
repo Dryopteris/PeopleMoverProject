@@ -8,5 +8,10 @@
 </head>
 <body>
 <p>YOU PICKED STATION ${station} AND ATTRACTION ${attraction}</p>
+
+<p>This is hopefully from our Json methods: ${word}</p>
+
+
+<p>This should return something about burritos: ${response1}</p>
 </body>
 </html>
