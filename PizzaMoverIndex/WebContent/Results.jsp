@@ -12,6 +12,6 @@
 <p>This is hopefully from our Json methods: ${word}</p>
 
 
-<p>This should return something about burritos: ${response1}</p>
+<p>Json data? ${finalString}</p>
 </body>
 </html>
