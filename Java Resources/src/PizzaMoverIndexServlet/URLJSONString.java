@@ -1,4 +1,4 @@
-package com.kirby.wiki;
+package src.PizzaMoverIndexServlet;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
