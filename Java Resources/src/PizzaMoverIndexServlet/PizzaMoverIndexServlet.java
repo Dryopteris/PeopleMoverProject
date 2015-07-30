@@ -1,4 +1,4 @@
-package PizzaMoverIndexServlet;
+package src.PizzaMoverIndexServlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
