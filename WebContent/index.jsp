@@ -25,12 +25,9 @@
     	<option value="11">Cobo Center</option>
     	<option value="12">Fort/Cass</option>
     	<option value="13">Michigan Ave.</option>
-    </select>
-    <select name="pointOfInterest" value="Pizza">
-    	<option value="Pizza">Pizza</option>
-    	<option value="Bars">Bars</option>
-    	<option value="Casinos">Casinos</option>
-    </select>
+    </select><br>
+    <label>Keyword:</label>
+    <input type="text" name="keyword" value="pizza?"/><br>
     <label>&nbsp;</label>
     <input type="submit" value="Let's find some fun!" class="margin_left">
 </form>

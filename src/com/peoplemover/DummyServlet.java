@@ -40,11 +40,13 @@ public class DummyServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String keyword = request.getParameter("keyword");
 		String stationID = request.getParameter("stationID");
 		HashMap<String, String> searchAddress = getStationAddress();
 		String stationAddress = searchAddress.get(stationID);
 		System.out.println(stationAddress);
-		URL googlePlaces = new URL("https://maps.googleapis.com/maps/api/place/nearbysearch/json?query=pizza&keyword=pizza&location=" + stationAddress + "&radius=300&key=AIzaSyAxC5yolZSd5G-UiQc70px_8cX0T09mqNs");
+		System.out.println(keyword);
+		URL googlePlaces = new URL("https://maps.googleapis.com/maps/api/place/nearbysearch/json?query=pizza&keyword=" + keyword + "&location=" + stationAddress + "&radius=300&key=AIzaSyAxC5yolZSd5G-UiQc70px_8cX0T09mqNs");
 		System.out.println(googlePlaces);
 		
 		
